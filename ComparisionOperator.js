@@ -17,6 +17,8 @@ console.log("c1 < c2 is ", c1 < c2)     // c1 < c2 is  false
 console.log("c1 >= c2 is ", c1 >= c2)   // c1 >= c2 is  true
 console.log("c1 <= c2 is ", c1 <= c2)   // c1 <= c2 is  true
 
+// ? OPERATOR TERNARY  NEED TO LEARN
+
 
 // output
 // c1 == c2 is  true
