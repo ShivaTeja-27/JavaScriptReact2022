@@ -9,7 +9,7 @@ console.log(document);
 
 console.log("refer index.html for understanding also style.css")
 
-function changeDom(){
+function changeDom() {
     console.log(document);
     var welcomeID = document.getElementById("WelcomeHtmlid");
 
@@ -25,6 +25,44 @@ function changeDom(){
 
     changeButton.style.backgroundColor = "blue";
     changeButton.style.color = "white";
+}
+/////////////////////////////////////////
 
+
+// <!-- On click of a buttonfor exampleinput should get into the HTML tag? -->
+function OnClick() {
+    console.log(document);
+
+    var textBox = document.getElementById("textbox");
+    var ReplaceText = document.getElementById("replacetexthere");
+
+    var Maintextbox = textBox.value;
+
+    ReplaceText.innerHTML = Maintextbox;
+
+    textBox.value = "";  // removes text from textfiled after button click
+
+}
+
+/////////////////////////////////////////////////////////
+// <!-- show hidden password code js -->
+
+function ShowHidePassword() {
+    console.log(document);
+    var passwordInput = document.getElementById("PassInput");
+    var hideButton = document.getElementById("passBtn");
+
+
+    // passwordInput.type = "text";
+    // hideButton.innerText = "Hide Password";
+
+    if(passwordInput.type === 'password'){
+        passwordInput.type = 'text';
+        hideButton.innerText = "Hide Password";
+    }
+    else{
+        passwordInput.type = "password";
+        hideButton.innerText = "Show Password"
+    }
 
 }
