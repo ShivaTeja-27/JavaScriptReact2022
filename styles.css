@@ -1,14 +1,14 @@
 body {
-    background-color:rgb(247, 211, 228);
+    background-color: rgb(247, 211, 228);
     color: rgb(0, 0, 0);
 }
 
-button{
+button {
     background-color: rgb(0, 255, 213);
     border-radius: 30px;
 }
 
-#DOM{
+#DOM {
     width: 300px;
     padding: 50px;
     text-align: center;
@@ -20,7 +20,7 @@ button{
 }
 
 
-#domquestion{
+#domquestion {
     background-color: brown;
     width: 300px;
     padding: 50px;
@@ -31,7 +31,7 @@ button{
     border-radius: 20%;
 }
 
-#passwordVisible{
+#passwordVisible {
     background-color: rgb(42, 165, 48);
     width: 300px;
     padding: 50px;
@@ -42,21 +42,21 @@ button{
     border-radius: 20%;
 }
 
-#passBtn{
+#passBtn {
     height: 40px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: blueviolet;
     color: aqua;
 }
 
-#PassInput{
+#PassInput {
     height: 40px;
     /* width: 100px; */
     font-size: larger;
 }
 
 
-#darkmode{
+#darkmode {
     background-color: rgb(255, 255, 255);
     height: 60vh;
     width: 300px;
@@ -67,8 +67,35 @@ button{
 
 }
 
-#CheckBOXID{
+#CheckBOXID {
     height: 50px;
     width: 50px;
     position: left;
 }
+
+/* //////////////////////////////////////////////////////// */
+#HTMLdynamically {
+    background-color: rgb(156, 255, 161);
+    width: 500px;
+    padding: 50px;
+    /* text-align: center; */
+    box-shadow: 0 0 10px rgb(255, 0, 0);
+    margin: 100px auto;
+    color: bisque;
+    height: 500px;
+}
+
+#listButton {
+    height: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: blueviolet;
+    color: aqua;
+}
+
+#textboxlist {
+    height: 40px;
+    /* width: 100px; */
+    font-size: larger;
+}
+
+/* //////////////////////////////////////////////////// */
