@@ -26,9 +26,7 @@ function SHOWTABLE() {
 
     var myTable = document.createElement("table");
     myTable.id = "tableID";
-    myTable.style.display = "contents";
-    
-
+    myTable.style.display = "block";
 
     myDivElement.appendChild(myTable);
 
@@ -53,7 +51,7 @@ function SHOWTABLE() {
     var th = document.createElement("th");
     th.scope = "col";
     th.id = "columnID"
-    th.style.display = "contents";
+    th.style.display = "block";
 
 
     tr.appendChild(th);
@@ -154,7 +152,7 @@ function HIDETABLE() {
     let tableROW = document.getElementById("columnID");
     
 
-    if (mytablehideElement.style.display === "contents" && tableROW.style.display === "contents" ) {
+    if (mytablehideElement.style.display === "block" && tableROW.style.display === "block" ) {
         
         mytablehideElement.style.display = "none";
         tableROW.style.display = "none";
