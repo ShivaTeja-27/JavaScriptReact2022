@@ -1,0 +1,89 @@
+.navbar{
+    background-color: black;
+    
+}
+.navbar-brand{
+    color:white;
+    margin-left: 0px;
+    padding-left: 0px;
+    
+}
+li{
+    display: flex;
+    justify-content: end;
+}
+
+#h2ref{
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 23px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    color: #d84f25;
+    font-weight: 700;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: capitalize;
+
+}
+
+
+#inputdiv1{
+    
+    width: 500px;
+    border: 2px solid black;
+    padding: 50px;
+    margin-top: 30px;
+    margin: 250px auto ;
+    text-align: center;
+}
+
+#inputdiv{
+    
+    width: 500px;
+    border: 2px solid black;
+    padding: 50px;
+    margin-top: 30px;
+    margin: 250px auto ;
+    text-align: center;
+}
+
+#inputbox1{
+    
+    width: 500px;
+    border: 2px solid black;
+    padding: 50px;
+    margin-top: 30px;
+    margin: 250px auto ;
+    text-align: center;
+
+}
+
+input.checkbutton{
+    margin-top: 15px;
+    width: 25px;
+    height: 25px;
+}
+
+#cardhead{
+    /* background-color: black; */
+
+    /* background-color: white; */
+    border-radius: 15px;
+    width:  500px;
+    border: 3px solid black;
+    padding: 50px auto;
+    margin: 200px auto;
+    margin-top: 20px auto;
+    text-align: left;
+    justify-content: left;
+}
+
+#profile-btn{
+    margin-left: 10px;
+    margin-bottom: 15px;
+
+}
+#text{
+    text-decoration-color: red;
+}
